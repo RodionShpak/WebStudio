@@ -1,0 +1,23 @@
+.container {
+  width: 95vw;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  // border: 2px solid tomato;
+
+  // @media screen and (min-width: $pre_safety) {
+  //   width: $pre_safety;
+  // }
+
+  @media screen and (min-width: $mobile) {
+    width: $mobile;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: $tablet;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: $desktop;
+  }
+}
