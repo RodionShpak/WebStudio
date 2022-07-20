@@ -15,7 +15,7 @@
   }
 
   &__item {
-    padding-bottom: 24px;
+    // padding-bottom: 24px;
 
     text-align: center;
 
@@ -45,10 +45,10 @@
     }
   }
 
-  &__img {
-    @include img;
-    margin-bottom: 30px;
-  }
+  // &__img {
+  //   @include img;
+  //   margin-bottom: 30px;
+  // }
 
   &__name {
     margin-top: 0;
